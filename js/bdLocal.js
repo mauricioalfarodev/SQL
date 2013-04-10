@@ -1,4 +1,4 @@
-var db = window.openDatabase("Tiendita.db3", "1.0", "Informacion de la Tiendita", 30 * 1024);
+var db = window.openDatabase("Tiendita2.db3", "1.0", "Informacion de la Tiendita2", 30 * 1024);
 var ItemId=0;
 
 function CreaTablas(tx) {
@@ -6,7 +6,7 @@ function CreaTablas(tx) {
 }
 
 function errorCB(err) {
-	// Esto se puede ir a un Log de Error diría el purista de la oficina, pero como este es un ejemplo pongo el MessageBox.Show :P
+	// Esto se puede ir a un Log de Error dirï¿½a el purista de la oficina, pero como este es un ejemplo pongo el MessageBox.Show :P
     alert("Error processing SQL: Codigo: " + err.code + " Mensaje: "+err.message);
 }
 
